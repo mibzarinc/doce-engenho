@@ -1,0 +1,18 @@
+{
+  "name": "Doce Engenho Ateliê — Custos e preços",
+  "short_name": "Doce Engenho",
+  "description": "Cadastro de produtos, insumos e preço mínimo por canal de venda.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FAF5EF",
+  "theme_color": "#C9646B",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
