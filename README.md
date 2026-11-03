@@ -18,13 +18,28 @@ porque os módulos JavaScript precisam de um servidor.
 
 ## Instalar no tablet
 
-1. Publique a pasta em um endereço **HTTPS** (Netlify Drop, GitHub Pages,
-   Cloudflare Pages… todos gratuitos).
-2. No tablet, abra o endereço no Chrome (Android) ou no Safari (iPad).
-3. Menu → **Instalar app** / **Adicionar à tela de início**.
+O app está publicado no GitHub Pages:
 
-Ao publicar uma nova versão, aumente `VERSAO` em `sw.js` para o tablet baixar
-os arquivos novos.
+**https://mibzarinc.github.io/doce-engenho/**
+
+1. No tablet, abra o endereço no **Chrome** (Android) ou no **Safari** (iPad).
+2. Android: menu ⋮ → **Instalar app** (ou **Adicionar à tela inicial**).
+   iPad: botão Compartilhar → **Adicionar à Tela de Início**.
+3. Abra pelo ícone criado. Depois do primeiro acesso funciona sem internet.
+
+## Publicar uma nova versão
+
+1. Aumente `VERSAO` em `sw.js` (ex.: `'v3'`) para o tablet baixar os arquivos novos.
+2. Envie para o GitHub:
+
+```bash
+git add -A
+git commit -m "Descrição da mudança"
+git push
+```
+
+Em 1 a 2 minutos o endereço é atualizado. No tablet aparece o aviso
+**Nova versão disponível → Atualizar**. Os dados cadastrados não são afetados.
 
 ## Como o preço é calculado
 
